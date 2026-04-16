@@ -1,0 +1,12 @@
+service: "src.service:BreastCancerService"
+labels:
+  owner: student
+  project: mlops
+include:
+  - "src/"
+  - "requirements.txt"
+models:
+  - "breast_cancer_mlp:latest"
+python:
+  requirements_txt: "./requirements.txt"
+  lock_packages: false

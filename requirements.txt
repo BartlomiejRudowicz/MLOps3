@@ -1,0 +1,14 @@
+torch
+lightning
+torchmetrics
+scikit-learn
+numpy
+pandas
+matplotlib
+mlflow
+optuna
+python-dotenv
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+numpy
+pydantic>=2.0.0
